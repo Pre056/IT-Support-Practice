@@ -27,15 +27,18 @@ Also the importance of verifying resolution after toubleshooting
 
 #Images
 
-1. Customer interaction
+Customer interaction
 
-   ![customer interaction](./screenshots/Customer interaction.png)
-2. Remote access to customers system
+![customer interaction](./screenshots/Customer interaction.png)
 
-   ![remote access](./screenshots/Remote Access.png)
-3. Access to router settings
+Remote access to customers system
 
-   ![router settings](./screenshots/Access to router settings.png)
-4. Confirmed resolution
+![remote access](./screenshots/Remote Access.png)
 
-   ![resolution confirmed](./screenshots/Resolution confirmation.png)
+Access to router settings
+
+![router settings](./screenshots/Access to router settings.png)
+
+Confirmed resolution
+
+![resolution confirmed](./screenshots/Resolution confirmation.png)
