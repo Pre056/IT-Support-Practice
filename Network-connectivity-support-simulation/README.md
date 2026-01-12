@@ -1,9 +1,10 @@
 #Supporting a Customer with Network Connectivity issues
+
 Type: Simulated IT Support Lab (IBM SkillsBuild)
 
 #Overview
 
-This project documents a simulated IT support lab wher I assisted a customer experiencing network connectivity issues. The lab was completed using IBM SkillsBuild and focused on network troubleshooting and customer support skills
+This project documents a simulated IT support lab where I assisted a customer experiencing network connectivity issues. The lab was completed using IBM SkillsBuild and focused on network troubleshooting and customer support skills
 
 #Scenario
 
