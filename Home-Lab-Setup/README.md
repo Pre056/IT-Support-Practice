@@ -86,6 +86,10 @@ This mirrors real servers that have both external and internal network access.
 <img src="./screenshots/nat_configuration.png" width="500">
 </p>
 
+<p align="center">
+<img src="./screenshots/internal_config.png" width="500">
+</p>
+
 ---
 
 ### 4. Install Windows Server on the Server VM
