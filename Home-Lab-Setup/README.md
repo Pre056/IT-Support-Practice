@@ -83,7 +83,7 @@ This VM represents a physical server in a real environment. It will later be pro
 This mirrors real servers that have both external and internal network access.
 
 <p align="center">
-<img src="./screenshots/nat_configuration.png" width="600">
+<img src="./screenshots/nat_configuration.png" width="400">
 </p>
 
 ---
