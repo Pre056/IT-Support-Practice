@@ -82,6 +82,8 @@ This VM represents a physical server in a real environment. It will later be pro
 
 This mirrors real servers that have both external and internal network access.
 
+![Network Adapter](./screenshots/nat_configuration.png)
+
 ---
 
 ### 4. Install Windows Server on the Server VM
