@@ -120,6 +120,14 @@ Active Directory requires Windows Server. Desktop Experience provides a GUI, mak
 **Why this was done:**
 Domain Controllers must have static IP addresses to remain reachable. DNS pointing to itself allows the server to resolve domain-related records.
 
+<p align="center">
+<img src="./screenshots/server_renamed.png" width="500">
+</p>
+
+<p align="center">
+<img src="./screenshots/staticIP_dns_config.png" width="500">
+</p>
+
 ---
 
 ### 6. Install Active Directory Domain Services (AD DS)
@@ -130,6 +138,10 @@ Domain Controllers must have static IP addresses to remain reachable. DNS pointi
 
 **Why this was done:**
 This role enables the server to manage users, computers, authentication, and policies. Without AD DS, the server cannot act as a Domain Controller.
+
+<p align="center">
+<img src="./ad_ds.png" width="500">
+</p>
 
 ---
 
@@ -145,6 +157,10 @@ This role enables the server to manage users, computers, authentication, and pol
 **Why this was done:**
 Promotion officially makes the server the Domain Controller. The forest is the top-level AD structure, and the domain becomes the identity boundary for authentication.
 
+<p align="center">
+<img src="./screenshots/desktopserver_view.png" width="500">
+</p>
+
 ---
 
 ### 8. Create Organizational Units and a Domain Admin User
@@ -158,6 +174,10 @@ Promotion officially makes the server the Domain Controller. The forest is the t
 **Why this was done:**
 Using separate admin accounts is a security best practice. OUs help logically organize objects and apply policies efficiently.
 
+<p align="center">
+<img src="./domain_admin_user.png" width="500">
+</p>
+
 ---
 
 ### 9. Install and Configure NAT / Routing (Optional)
@@ -169,6 +189,14 @@ Using separate admin accounts is a security best practice. OUs help logically or
 
 **Why this was done:**
 This allows internal domain machines to access the internet through the Domain Controller, simulating real enterprise routing behavior.
+
+<p align="center">
+<img src="./screenshots/remote_access.png" width="500">
+</p>
+
+<p align="center">
+<img src="./screenshots/ras_nat_config.png" width="500">
+</p>
 
 ---
 
@@ -183,17 +211,28 @@ This allows internal domain machines to access the internet through the Domain C
 **Why this was done:**
 DHCP automates IP assignment for clients, reducing manual configuration and preventing IP conflicts.
 
+<p align="center">
+<img src="./screenshots/dhcp_installation.png" width="500">
+</p>
+
+<p align="center">
+<img src="./screenshots/dhcp_scope.png" width="500">
+</p>
+
 ---
 
 ### 11. Create Users (Manual and Automated)
 
 **What was done:**
 
-* Created users manually in ADUC
 * Used PowerShell scripts to bulk-create users
 
 **Why this was done:**
 This demonstrates both basic user management and automation, which is essential in real IT environments with many users.
+
+<p align="center">
+<img src="./screenshots/domain_users.png" width="500">
+</p>
 
 ---
 
@@ -207,6 +246,10 @@ This demonstrates both basic user management and automation, which is essential 
 
 **Why this was done:**
 The client simulates an employee workstation that will join the domain and authenticate using centralized credentials.
+
+<p align="center">
+<img src="./screenshots/.png" width="500">
+</p>
 
 ---
 
@@ -259,11 +302,21 @@ Restarted VirtualBox and successfully powered on the virtual machine
 
 Result:
 The virtual machine started normally, and the Active Directory lab setup was able to continue.
+
+Virtualization in task manager before and after resolution
+
+<p align="center">
+<img src="./screenshots/disabled_virtualization.png" width="500">
+</p>
+
+<p align="center">
+<img src="./screenshots/virtualization_enabled.png" width="500">
+</p>
+
 ---
 
 ## Outcome
 
-By completing this lab, you gain practical experience with enterprise-level Windows networking concepts and Active Directory administration in a controlled environment.
+By completing this lab, I gained practical experience with enterprise-level Windows networking concepts and Active Directory administration in a controlled environment.
 
-This setup closely mirrors real-world IT infrastructure and is suitable for entry-level IT, help desk, and system administration practice.
 
