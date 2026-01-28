@@ -224,9 +224,37 @@ This step establishes trust between the client and Domain Controller, enabling c
 * Role of DNS in Active Directory
 * Importance of static IPs for servers
 * How DHCP automates networking
-* Why PowerShell automation matters
 * How domain authentication works
 
+---
+
+## Problems faced and the solution
+
+**Issue**:
+The virtual machine failed to start when attempting to power it on in VirtualBox.
+
+**Observation**:
+Upon checking Task Manager → Performance → CPU, virtualization was shown as Disabled.
+
+**Cause**:
+Hardware virtualization was disabled in the system BIOS. VirtualBox requires CPU virtualization features (Intel VT-x or AMD-V) to run virtual machines.
+
+**Solution**:
+
+Restarted the PC and entered the BIOS/UEFI settings on the HP computer
+
+Located the Virtualization Technology option
+
+Enabled virtualization
+
+Saved changes and rebooted into Windows
+
+Verified virtualization was enabled in Task Manager
+
+Restarted VirtualBox and successfully powered on the virtual machine
+
+Result:
+The virtual machine started normally, and the Active Directory lab setup was able to continue.
 ---
 
 ## Outcome
