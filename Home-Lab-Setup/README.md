@@ -140,7 +140,7 @@ Domain Controllers must have static IP addresses to remain reachable. DNS pointi
 This role enables the server to manage users, computers, authentication, and policies. Without AD DS, the server cannot act as a Domain Controller.
 
 <p align="center">
-<img src="./ad_ds.png" width="500">
+<img src="./ad.png" width="500">
 </p>
 
 ---
