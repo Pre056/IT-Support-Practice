@@ -103,6 +103,10 @@ This mirrors real servers that have both external and internal network access.
 **Why this was done:**
 Active Directory requires Windows Server. Desktop Experience provides a GUI, making management easier for learning purposes.
 
+<p align="center">
+<img src="./screenshots/desktopserver_view.png" width="500">
+</p>
+
 ---
 
 ### 5. Rename the Server and Configure Static IP
