@@ -175,7 +175,7 @@ Promotion officially makes the server the Domain Controller. The forest is the t
 Using separate admin accounts is a security best practice. OUs help logically organize objects and apply policies efficiently.
 
 <p align="center">
-<img src="./domain_admin_user.png" width="500">
+<img src="./screenshots/domain_admin_user.png" width="500">
 </p>
 
 ---
